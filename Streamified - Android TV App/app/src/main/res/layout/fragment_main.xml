@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:background="@drawable/loginpage">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:background="#010101">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#010101"
+        tools:ignore="Suspicious0dp">
+        <TextView
+            android:id="@+id/slogan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_to_continue"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="@string/username1"
+            android:textColorHint="#fff"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="0dp"
+            android:nextFocusDown="@id/password"
+            android:privateImeOptions="horizontalAlignment=left"
+             />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="@string/password"
+            android:textColorHint="#fff"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="10dp"
+            android:nextFocusDown="@id/go"
+            android:nextFocusUp="@id/user"
+            android:privateImeOptions="horizontalAlignment=left"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button"
+                android:text="@string/go"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:nextFocusUp="@id/go"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                app:cornerRadius="0dp"
+                style="?android:attr/borderlessButtonStyle" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
