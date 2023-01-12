@@ -1,0 +1,45 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.App{
+  /* position: sticky;top: 0; */
+
+}
+.App-header {
+  height: 80px;
+ 
+  display: flex;
+   font-size: 50px;
+  color: white;
+ background-color: #202020;
+
+  
+}
+.h1{
+  display: flex;
+  align-items: center;
+
+}
+.left{
+  padding-left: 1%;
+}
+.logo{
+ 
+  display: flex;
+    align-items: center;
+    color: rgb(189, 189, 189);
+    font-size: 60PX;
+    padding: 2px;
+    font-weight: 500;
+    justify-content: first baseline;
+     width: 81px;
+  border-radius:30%;
+  position:relative; bottom:-10px;
+}
+.PP{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
