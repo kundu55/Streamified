@@ -1,0 +1,60 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 72%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6%;
+ }
+  
+
+/* .video:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ } */
+
+
+ .video-grid {
+    display: grid;
+    gap: 3rem;
+    row-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 350px;
+    width: 100%;
+    margin-bottom: -25%;
+  }
+
+
+  .video-title {
+   text-align: center;
+   color: rgb(212, 212, 212);
+   margin-top: 0.5rem; 
+   font-size: 2rem;
+   height: 2.5rem;
+  }
+
+
+  .video > Video {
+   height: 275px;
+  }
+
+  .video > p {
+   height: 80px;
+  }
+
+
+  
+  /* .rh5v-DefaultPlayer_video {
+   height: 270px;
+  } */

@@ -1,0 +1,19 @@
+.search{
+    width: 100%;
+    height: 100%;
+    color:white;
+    /* background: linear-gradient(2.87deg, #130B29 9.89%, #5436A9 100%, #5E47A1 100%);  */
+    background: rgba(11, 15, 22, 0.47);
+    box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    background-color: #111;
+    text-align: center;
+
+}
+
+.searchbox{
+    border-radius: 0.5em;
+    height: 40px;
+    width: 250px;
+}
