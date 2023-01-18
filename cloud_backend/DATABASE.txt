@@ -1,0 +1,4 @@
+db_instance_name = "huex-new"%0A 
+db_name = "local-network-media-streaming"%0A 
+db_username = "local-network-media-streaming-user"%0A 
+db_port = "5432"%0A 
